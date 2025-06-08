@@ -1,0 +1,34 @@
+{
+  "name": "vanilla-live-server",
+  "description": "A simple, lightweight live-reload server for local web development, built from scratch with Node.js.",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "bin": {
+    "v-live-server": "./server.js"
+  },
+  "keywords": [
+    "live-server",
+    "dev-server",
+    "vanilla-js",
+    "node",
+    "websocket"
+  ],
+  "author": "Bryan Luke Tan <bryanluketan@gmail.com> (https://bryanluketan.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryluke/vanilla-live-server"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/bryluke/vanilla-live-server#readme",
+  "bugs": {
+    "url": "https://github.com/bryluke/vanilla-live-server/issues"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "ws": "^8.18.2"
+  }
+}
