@@ -31,20 +31,18 @@ npm install
 Navigate to your project folder and run the server using the `npm start` script, passing the directory you want to serve as an argument.
 
 ```bash
-# To serve the current directory
-npm start .
-
-# To serve a different directory
+# To serve your project
 npm start path/to/your/project
 ```
 The server will start on `http://localhost:3000`.
 
 ## Future Improvements
 
-- [ ] Hot-reloading for CSS without a full page refresh.
-- [ ] Making the port configurable via a command-line flag (e.g., `-p 8080`).
-- [ ] Handling more MIME types for different assets.
-- [ ] NPM Publishing
+- [ ] **Publish to npm:** Package the tool for easy global installation (`npm install -g vanilla-live-server`).
+- [ ] **Hot-reloading for CSS:** Update styles without a full page refresh.
+- [ ] **Configurable Port:** Allow the port to be set via a command-line flag (e.g., `-p 8080`).
+- [ ] **Directory Listing:** If `index.html` is not found, display a list of files in the directory.
+- [ ] **Handling more MIME types:** Expand the list of supported file types.
 
 ## License
 
